@@ -1,4 +1,5 @@
 # otto-test
+This project is made for the job application test at Otto Digital.
 
 ## Project setup
 ```
