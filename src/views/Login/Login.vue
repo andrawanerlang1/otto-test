@@ -3,7 +3,7 @@
     <div class="border">
       <div class="wrapperMain">
         <div>
-          <img src="../../assets/logo.png" style="width: 200px" />
+          <img src="../../assets/logo.png" class="logo-image" />
         </div>
         <div class="loginTop">Portal Dashboard</div>
         <br />
@@ -140,12 +140,27 @@ export default {
   height: 50px;
   border-radius: 300px;
 }
-
+.logo-image {
+  width: 200px;
+}
+@media screen and (max-width: 650px) {
+  .wrapperMain {
+    width: 90%;
+  }
+}
 @media screen and (max-width: 500px) {
   .loginButton {
     font-size: 18px;
     height: 60px;
     width: 80%;
+  }
+  .logo-image {
+    width: 150px;
+  }
+  .loginTop {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 20px;
   }
 }
 </style>
